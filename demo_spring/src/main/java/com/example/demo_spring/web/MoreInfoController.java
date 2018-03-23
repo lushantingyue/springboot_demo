@@ -1,4 +1,4 @@
-package com.example.demo_spring;
+package com.example.demo_spring.web;
 
 import com.example.demo_spring.bean.ConfigBean;
 import com.example.demo_spring.bean.Version;

@@ -1,4 +1,4 @@
-package com.example.demo_spring;
+package com.example.demo_spring.web;
 
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
