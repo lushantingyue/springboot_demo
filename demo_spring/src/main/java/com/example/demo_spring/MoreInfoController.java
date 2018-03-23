@@ -1,6 +1,7 @@
 package com.example.demo_spring;
 
 import com.example.demo_spring.bean.ConfigBean;
+import com.example.demo_spring.bean.Version;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
@@ -20,5 +21,13 @@ public class MoreInfoController {
                 configBean.getName() + ">>> " +
                 configBean.getUuid() + ">>> " +
                 configBean.getMax();
+    }
+
+    @Autowired
+    Version version;
+
+    @RequestMapping(value = "/test")
+    public String testInfo() {
+        return version.getVersion_name() + ", beta: " + version.getDate();
     }
 }
