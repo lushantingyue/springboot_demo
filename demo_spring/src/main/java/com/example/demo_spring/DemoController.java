@@ -10,6 +10,15 @@ public class DemoController {
 
     private String name = "<h1>Springboot Demo \n </h1>";
 
+    /**
+     * 主页路径
+     * @return
+     */
+    @RequestMapping("/")
+    private String home() {
+        return "<h1>Index\n</h1>";
+    }
+
     @RequestMapping("/demo")
     private String demo() {
         return "<h1>Welcome to SpringBoot's World!\n </h1>";
