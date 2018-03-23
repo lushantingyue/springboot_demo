@@ -1,0 +1,8 @@
+my:
+ name: lushantingyue
+ age: 24
+ num: ${random.int}
+ uuid: ${random.uuid}
+ max: ${random.int(10)}
+ value: ${random.value}
+ greeting: hi, I'm ${my.name}
