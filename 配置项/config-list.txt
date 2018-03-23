@@ -1,0 +1,12 @@
+Gradle构建方式
+============================================================
+IDE: JetBrain Idea Ultimate 2017.2.7
+Gradle: gradle-4.5.1-all/gradle-4.1-all
+Spring配置模板: web -> web
+
+Maven构建方式
+============================================================
+IDE: JetBrain Idea Ultimate 2017.2.7
+Maven: settings.xml使用阿里云maven镜像
+Spring配置模板: web -> web
+
