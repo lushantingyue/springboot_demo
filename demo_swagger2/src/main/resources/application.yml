@@ -1,0 +1,11 @@
+#properties文件和yml 文件均可定义配置
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/test
+    username: root
+    password: 123456
+
+spring:
+  profiles:
+    active: dev
